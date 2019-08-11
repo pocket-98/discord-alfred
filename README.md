@@ -14,11 +14,11 @@ A butler to keep track of who is responsible for what in the apartment
 
 ## Usage
  * get: `@Alfred get <key>` or `@Alfred get all`
- * set: `@Alfred set <key>` to both create or update the map
+ * set: `@Alfred set <key> <val>` to both create or update a key
  * delete: `@Alfred delete <key>` or `@Alfred delete all`
  * use quotation marks: `"` to delimit keys or values with spaces in them
 
 ## Examples
  * get: `get "some key" for me, would you @Alfred`
- * set: `@Alfred set "some key" VaLuE and any words I put here don't matter``
+ * set: `@Alfred set "some key" VaLuE and any words I put here don't matter`
  * delete: `delete all @Alfred please`

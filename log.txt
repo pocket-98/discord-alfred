@@ -1,0 +1,9 @@
+starting discord-alfred v1.0.0:
+add alfred to your server: https://discordapp.com/api/oauth2/authorize?client_id=609982536994783262&permissions=2048&scope=bot
+loading keys and values from data.json:
+{ 'pressure cooker': 'pavan',
+  'plates (not shared)': 'pavan',
+  'utensils (not shared)': 'pavan' }
+
+
+alfred is ready

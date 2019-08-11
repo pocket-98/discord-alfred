@@ -1,0 +1,10 @@
+{
+    "id": "609982536994783262",
+    "bot_link": "https://discordapp.com/api/oauth2/authorize?client_id=609982536994783262&permissions=2048&scope=bot",
+    "token": "NjA5OTgy    REDACTED  FOR  PROVACY    dNT1HWZzFNJIOPPIm9M_U",
+    "datafile": "data.json",
+    "set_cmd": "set",
+    "get_cmd": "get",
+    "del_cmd": "delete",
+    "all_keys": "all"
+}

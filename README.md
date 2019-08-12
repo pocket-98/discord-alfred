@@ -22,3 +22,5 @@ A butler to keep track of who is responsible for what in the apartment
  * get: `get "some key" for me, would you @Alfred`
  * set: `@Alfred set "some key" VaLuE and any words I put here don't matter`
  * delete: `delete all @Alfred please`
+
+![screen](screen.png)

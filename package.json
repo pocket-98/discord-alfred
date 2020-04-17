@@ -1,6 +1,6 @@
 {
   "name": "discord-alfred",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "track whos doing what",
   "main": "index.js",
   "dependencies": {

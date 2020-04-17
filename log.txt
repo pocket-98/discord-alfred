@@ -1,9 +1,19 @@
-starting discord-alfred v1.0.0:
+starting discord-alfred v1.0.1:
 add alfred to your server: https://discordapp.com/api/oauth2/authorize?client_id=609982536994783262&permissions=2048&scope=bot
-loading keys and values from data.json:
-{ 'pressure cooker': 'pavan',
-  'plates (not shared)': 'pavan',
-  'utensils (not shared)': 'pavan' }
-
-
 alfred is ready
+2020/4/17 11:6:16: <@609982536994783262> set cc awake
+#general> I have created the item `cc` and set its value to `awake`.
+2020/4/17 11:6:21: <@609982536994783262> delete cc
+#general> I got rid of `cc` which was `awake`.
+2020/4/17 11:7:6: <@609982536994783262>  get all
+#general> ```
+remind-rent=false
+rent-paid=false
+book_to_read=The Name of the Wind
+```
+2020/4/17 11:9:32: <@609982536994783262> get love
+#general> There's no such thing as love Master Wayne.
+2020/4/17 11:10:0: <@609982536994783262> get love
+#general> There's no such thing as love Master Wayne.
+2020/4/17 11:10:7: <@609982536994783262> get love
+#general> There's no such thing as love Master Wayne.

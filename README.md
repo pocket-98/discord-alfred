@@ -4,13 +4,14 @@ A butler to keep track of who is responsible for what in the apartment
 ## Installation
  * Install dependencies with `npm install`.
  * Change the `id` and set the `token` in `config.json` to correspond to your discord bot's credentials.
- * Run it with `./run.sh`.
+ * Run it with `node index.js`.
 
 
 ## Features
- * Alfred will keep a single central key,val map that anyone in the discord server can modify with the commands `get`, `set`, and `delete`.
+ * Alfred will keep a single central key,value map that anyone in the discord server can modify with the commands `get`, `set`, and `delete`.
  * Use the special key `all` to get or delete all keys in the map.
  * allows for very loose style of sending commands to Alfred (all that matters is the 2-3 words for the command are the first words in the sentence with @Alfred thrown anywhere in the sentence)
+ * Has rent reminder feature around the 1st day of the month
 
 ## Usage
  * get: `@Alfred get <key>` or `@Alfred get all`

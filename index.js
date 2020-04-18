@@ -5,8 +5,8 @@ const config = require("./config.json");
 const pkg = require("./package.json");
 
 function time_stamp() {
-    d = new Date();
-    s = d.getFullYear() + "/" + (d.getMonth()+1) + "/" + d.getDate();
+    var d = new Date();
+    var s = d.getFullYear() + "/" + (d.getMonth()+1) + "/" + d.getDate();
     s += " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
     return s;
 }
@@ -17,7 +17,7 @@ function data_file(srv) {
 
 function parse_msg(content) {
     // remove @Alfred and split by quotes
-    var msg_quotes = content.replace("<@"+config.id+">", "").split('"');
+    var msg_quotes = content.replace("<@!"+config.id+">", "").split('"');
 
     // split msg into array by spaces, commas, or =
     var msg = [];
